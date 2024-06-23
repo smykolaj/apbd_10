@@ -11,7 +11,7 @@ public class TestsController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok();
+        return Ok("secret data");
     }
 
     [HttpGet("exception")]
